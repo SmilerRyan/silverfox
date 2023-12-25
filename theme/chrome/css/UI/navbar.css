@@ -33,7 +33,7 @@
   height: 34px !important;
 }
 
-/* Coupled with JS, when PersonalToolbar is disabled, add a bottom border to Nav Bar */
+/* Add a bottom border to Nav Bar, or Bookmarks Bar, depending on visibility */
 #navigator-toolbox:not([style*="display: none"]):last-child {
   border-bottom: 2px solid #b2b2b2 !important;
 }
