@@ -9,13 +9,12 @@
 
 /* When theming is disabled, make the blue gradient */
 @supports not (-moz-bool-pref("silverfox.allowThemes")) {
-    #TabsToolbar {
-        background-image: linear-gradient(to top, #406dc2 0%, #406dc2 10%, #6192dc 97%, #6192dc 100%) !important;
-    }  
-    #navigator-toolbox,
-    #navigator-toolbox-background {
-    background-color: #6192dc !important;
-    }
+  #navigator-toolbox {
+    background: #406dc2 !important;
+  }
+  #titlebar {
+    background: linear-gradient(to top, #406dc2 0%, #406dc2 10%, #6192dc 97%, #6192dc 100%) !important;
+  }
 }
 
 /* Remove the gap when Firefox is fullscreen */
@@ -486,7 +485,7 @@ tab:where(:first-of-type[visuallyselected="true"]) {
 .titlebar-max:hover::before {
   content: url(../../assets/images/topbar/maximize_hover.png) !important;
   width: 25px !important;
-  height: 18px !important;  
+  height: 18px !important;
 }
 .titlebar-min::before {
   content: url(../../assets/images/topbar/minimize.png) !important;
