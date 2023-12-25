@@ -374,7 +374,7 @@
 }
 #urlbar[breakout][breakout-extend] {
   height: 19px !important;
-  top: 2px !important;
+  top: 1px !important;
   width: 100% !important;
   left: 0px !important;
   color: black !important;
